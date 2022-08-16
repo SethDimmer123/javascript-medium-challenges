@@ -43,7 +43,15 @@
 
 
 
+// Question 3. Get the last element in an array
 
+// Given an array, return the first element.
+
+// lastElem([3,2,0,6,2]) --> 2
+
+// lastElem(['dog','cat','ball']) --> 'ball'
+
+// lastElem([null,5,false]) --> false
 
 
 
