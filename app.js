@@ -233,3 +233,34 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Question 10. Filter out all the apples
+
+// Given an array of fruits, if it is an apple remove it from the array.
+
+
+// removeApples(['Banana','Apple','Orange','Apple']) -->['Banana','Orange']
+
+// removeApples(['Tomato','Orange','Banana']) -->['Tomato','Orange','Banana']
+
+// removeApples(['Banana','Apple','Orange','Apple']) -->['Banana','Orange']
+
+
+
+
+
+
+
+
