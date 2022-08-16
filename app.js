@@ -258,6 +258,11 @@
 // removeApples(['Banana','Apple','Orange','Apple']) -->['Banana','Orange']
 
 
+// - Solution 1: For loop
+
+// - Solution 2: Array 'filter'
+
+
 
 
 
