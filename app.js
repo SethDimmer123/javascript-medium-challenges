@@ -99,3 +99,9 @@
 
 // It is confusing what does that mean(12:15)
 
+// progressiveSum(3) --> 6
+
+// progressiveSum(4) --> 10
+
+// progressiveSum(3) --> 180300
+
