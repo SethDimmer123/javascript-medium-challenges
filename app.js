@@ -285,9 +285,41 @@
 
 // filterOutFalsy(["",[],0,null,undefined,"0"]) -->[[],"0"]
 
-// filterOutFalsy(["",[],0,null,undefined,"0"]) -->[[],"0"]
+// filterOutFalsy(['Tomato','Orange','Banana',false]) --> ['Tomato', 'Orange', 'Banana']
 
-// filterOutFalsy(["",[],0,null,undefined,"0"]) -->[[],"0"]
+// filterOutFalsy(['Banana','Orange','Apple']) --> ['Banana','Orange']
+
+
+// - Solution 1: For loop
+
+// - Solution 2: Array 'filter'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Question 12. Truthy to true, Falsy to false
+
+// Given an array of truthy and falsy values, return the same array of elements into its boolean value.
+
+// convertToBoolean([500,0,"David","",[]]) --> [true,false,true,false,true]
 
 
 
