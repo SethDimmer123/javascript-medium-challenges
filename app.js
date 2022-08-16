@@ -43,7 +43,7 @@
 
 
 
-// Question 3. Get the last element in an array
+// Question 3. Get the last element in an array.
 
 // Given an array, return the first element.
 
@@ -66,4 +66,36 @@
 
 
 
+
+// Question 4. Find the sum of an array
+
+// Given an array, return the sum of every element.
+
+
+// arrSum([2,2,2]) --> 6
+
+// arrSum([100,200,500]) --> 800
+
+// arrSum ([0,-5,-10]) --> -15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Question 5. Add up the numbers from a single number.
+
+// Given a number, add up all the numbers from one to the number that is given. 
+
+// E.g. An input of 4 will give you 1 + 2 + 3 + 4, which equals 10.
+
+// It is confusing what does that mean(12:15)
 
