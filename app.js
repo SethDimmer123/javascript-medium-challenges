@@ -153,4 +153,47 @@
 
 // Question 7. Find the largest number
 
-// Given an array of numbers, return the largest number of that array
+// Given an array of numbers, return the largest number of that array.
+
+
+
+// getMax([5,100,0]) --> 100
+
+// getMax([12,10,-20]) --> 12
+
+// getMax([-300,-100,-200]) --> -100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Question 8. Reverse a string
+
+// Given a string, return the reversed string.
+
+// reverseString('abc') -->'cba'
+
+// reverseString('David') -->'divaD'
+
+// reverseString('This is cool') -->'looc si sihT'
+
+
+
+// - Use an incrementing for loop
+
+// - Use an decrementing for loop
+
+// - Use the array reverse property
