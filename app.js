@@ -269,3 +269,32 @@
 
 
 
+
+
+
+
+
+
+
+
+// Question 11. Filter out all the falsy values
+
+// Given an array of values, filter out all the falsy values and only return the truthy values.
+
+
+
+// filterOutFalsy(["",[],0,null,undefined,"0"]) -->[[],"0"]
+
+// filterOutFalsy(["",[],0,null,undefined,"0"]) -->[[],"0"]
+
+// filterOutFalsy(["",[],0,null,undefined,"0"]) -->[[],"0"]
+
+
+
+
+
+
+
+
+
+
