@@ -197,3 +197,39 @@
 // - Use an decrementing for loop
 
 // - Use the array reverse property
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Question 9. Turn every element in an array into 0 
+
+// Given an array of elements,return the same length array filled with 0's.
+
+// convertToZeros([5,100,0]) --> [0,0,0]
+
+// convertToZeros([12]) --> [0]
+
+// convertToZeros([1,2,3,4,5]) --> [0,0,0,0,0]
+
+// - Solution 1: For loop
+
+// - Array 'fill'
+
+// - Array 'map'
+
+
+
+
+
+
