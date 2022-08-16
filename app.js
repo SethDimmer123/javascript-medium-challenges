@@ -103,5 +103,54 @@
 
 // progressiveSum(4) --> 10
 
-// progressiveSum(3) --> 180300
+// progressiveSum(600) --> 180300
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Question 6. Calculate the time
+
+// Given a number in seconds, return this number in mm:ss format
+
+// calcTime(66) --> '1:06'
+
+// calcTime(50) --> '00:50'
+
+// calcTime(300) --> '05:00'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Question 7. Find the largest number
+
+// Given an array of numbers, return the largest number of that array
