@@ -21,3 +21,12 @@
 
 
 
+// Question 2. Return the length of any given array
+
+// Given an array, return its length.
+
+// arrLength([1,2,3]) --> 3
+
+// arrLength([1,2,3]) --> 3
+
+// arrLength([1,2,3]) --> 3
