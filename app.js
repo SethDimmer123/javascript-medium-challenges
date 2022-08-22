@@ -20,7 +20,6 @@
 
 
 
-
 // Question 2. Return the length of any given array
 
 // Given an array, return its length.
