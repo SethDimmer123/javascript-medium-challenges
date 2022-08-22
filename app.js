@@ -8,11 +8,13 @@
 
 // filterOutFalsy([true, 'Dog']) --> 'Dog'
 
-function falsyOrTruthy(elem1,elem2) {
-    return elem1 ? elem1 : elem2;
+
+
+function falsyOrTruthy(elem1, elem2) {
+    return (!elem1) ? elem1 : elem2;
 }
 
-console.log(falsyOrTruthy(10,5))
+console.log(falsyOrTruthy(0,5));
 
 
 
@@ -33,6 +35,12 @@ console.log(falsyOrTruthy(10,5))
 // arrLength([5, 0, -4, 1]) --> 4
 
 // arrLength([]) --> 0
+
+function arrLength(arr) {
+    return arr.length;
+}
+
+console.log(arrLength([1, 2, 3, 4]));
 
 
 
