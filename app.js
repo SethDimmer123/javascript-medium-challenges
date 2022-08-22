@@ -36,11 +36,11 @@ console.log(falsyOrTruthy(0,5));
 
 // arrLength([]) --> 0
 
-function arrLength(arr) {
-    return arr.length;
-}
+// function arrLength(arr) {
+    // return arr.length;
+// }
 
-console.log(arrLength([1, 2, 3, 4]));
+// console.log(arrLength([1, 2, 3, 4]));
 
 
 
@@ -64,8 +64,20 @@ console.log(arrLength([1, 2, 3, 4]));
 
 // lastElem([null,5,false]) --> false
 
+function arrLength(arr) {
+    return arr[arr.length - 1];
+}
+
+console.log(arrLength([1, 2, 3, 4]));
 
 
+/*To get the last element of an array you need to do length - 1 */
+
+/*Array length is how many elements there are in an array */
+
+/*remember when you are targeting an element you need to target it
+by the index number
+*/
 
 
 
