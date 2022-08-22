@@ -101,7 +101,11 @@ by the index number
 
 // arrSum ([0,-5,-10]) --> -15
 
+function arrSum(arr) {
+    
+}
 
+console.log(arrSum([2,2,2]));
 
 
 
