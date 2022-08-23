@@ -109,6 +109,7 @@ function arrSum(arr) {
         // console.log(arr[i]);
         // console.log('run this code')
     }
+    return sum;
     // console.log('for loop broke')
 }
 
