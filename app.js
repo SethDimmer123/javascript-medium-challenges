@@ -64,11 +64,11 @@ console.log(falsyOrTruthy(0,5));
 
 // lastElem([null,5,false]) --> false
 
-function arrLength(arr) {
-    return arr[arr.length - 1];
-}
+// function arrLength(arr) {
+    // return arr[arr.length - 1];
+// }
 
-console.log(arrLength([1, 2, 3, 4]));
+// console.log(arrLength([1, 2, 3, 4]));
 
 
 /*To get the last element of an array you need to do length - 1 */
@@ -102,14 +102,17 @@ by the index number
 // arrSum ([0,-5,-10]) --> -15
 
 function arrSum(arr) {
+    let sum = 0;
     for(let i = 0; i < arr.length; ++i) {
-        // This is how you loop through every element in an array
-        console.log('run this code')
+        // This is how you loop through every element in an array.
+        sum = sum + arr[i];
+        // console.log(arr[i]);
+        // console.log('run this code')
     }
     console.log('for loop broke')
 }
 
-console.log(arrSum([2,2,2]));
+console.log(arrSum([1,2,3,4,5,6]));
 
 
 
