@@ -108,10 +108,10 @@ by the index number
         // sum = sum + arr[i];
         // console.log(arr[i]);
         // console.log('run this code')
-    }
+    // }
     // return sum;
     // console.log('for loop broke')
-}
+// }
 
 // console.log(arrSum([1,2,3,4,5,6]));
 
@@ -274,17 +274,15 @@ console.log(getMax([1000, 3, 500]));
 // - Use the array reverse property
 
 
-function getMax(arr) {
-    let max =arr[0];
-for(let i = 0; i < arr.length; ++i){
-if (arr[i] > max) {
-    max = arr[i];
+function reverseString(str) {
+    let reversedString = '';
+for(let i = str.length - 1; i >= 0; --i) {
+    console.log(str[i]);
     }
+    return null;
   }
-  return max;
-}
 
-console.log(getMax([1000, 3, 500]));
+console.log(reverseString('abc'));
 
 
 
