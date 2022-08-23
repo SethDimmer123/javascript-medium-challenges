@@ -116,6 +116,11 @@ function arrSum(arr) {
 console.log(arrSum([1,2,3,4,5,6]));
 
 
+/*Come back to this question and do this yourself */
+
+
+
+
 
 
 
