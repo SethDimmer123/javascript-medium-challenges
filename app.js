@@ -102,7 +102,11 @@ by the index number
 // arrSum ([0,-5,-10]) --> -15
 
 function arrSum(arr) {
-    
+    for(let i = 0; i < arr.length; ++i) {
+        // This is how you loop through every element in an array
+        console.log('run this code')
+    }
+    console.log('for loop broke')
 }
 
 console.log(arrSum([2,2,2]));
