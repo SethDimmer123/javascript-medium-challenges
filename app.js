@@ -276,10 +276,11 @@ console.log(getMax([1000, 3, 500]));
 
 function reverseString(str) {
     let reversedString = '';
-for(let i = str.length - 1; i >= 0; --i) {
-    console.log(str[i]);
+for(let i = 0; i < str.length; ++i) {
+    // This is how you loop through every character in a string
+    reversedString = str[i] + reversedString;
     }
-    return null;
+    return reversedString;
   }
 
 console.log(reverseString('abc'));
@@ -312,7 +313,13 @@ console.log(reverseString('abc'));
 // - Array 'map'
 
 
+function convertToZeros(arr) {
+    return arr.map(elem =>{
+        return 5
+    });
+}
 
+console.log(convertToZeros([1,2,3,4,5]))
 
 
 
@@ -347,6 +354,15 @@ console.log(reverseString('abc'));
 
 
 
+function removeApples(arr) {
+    return arr.filter(elem => {
+        return elem ==='Apple'
+    })
+}
+
+console.log(removeApples(['Banana' , 'Apple' , 'Orange' , 'Apple']));
+
+
 
 
 
@@ -378,7 +394,20 @@ console.log(reverseString('abc'));
 // - Solution 2: Array 'filter'
 
 
+function filterOutFalsy(arr) {
+    let truthyArr = [];
+    for (let i = 0; i < arr.length; ++i) {
+        if (!!arr[i] === true) {
+            truthyArr.push(arr[i]);
+        }
+    }
+    return truthyArr;
+}
 
+console.log(filterOutFalsy(['', NaN, 500, null, false, 0]))
+
+
+/* Attempt this problem yourself over and over */
 
 
 
