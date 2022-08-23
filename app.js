@@ -101,19 +101,19 @@ by the index number
 
 // arrSum ([0,-5,-10]) --> -15
 
-function arrSum(arr) {
-    let sum = 0;
-    for(let i = 0; i < arr.length; ++i) {
+// function arrSum(arr) {
+    // let sum = 0;
+    // for(let i = 0; i < arr.length; ++i) {
         // This is how you loop through every element in an array.
-        sum = sum + arr[i];
+        // sum = sum + arr[i];
         // console.log(arr[i]);
         // console.log('run this code')
     }
-    return sum;
+    // return sum;
     // console.log('for loop broke')
 }
 
-console.log(arrSum([1,2,3,4,5,6]));
+// console.log(arrSum([1,2,3,4,5,6]));
 
 
 /*Come back to this question and do this yourself */
@@ -149,6 +149,16 @@ console.log(arrSum([1,2,3,4,5,6]));
 
 
 
+// function progressiveSum(num) {
+// let sum = 0;
+// for(let i = 1; i <= num; ++i) {
+    // sum = sum + i;
+// }
+// return sum;
+// }
+
+// console.log(progressiveSum(3));
+
 
 
 
@@ -179,7 +189,17 @@ console.log(arrSum([1,2,3,4,5,6]));
 // calcTime(300) --> '05:00'
 
 
+function calcTime(seconds) {
+    let timerMinutes = Math.floor(seconds / 60);
+    let timerSeconds = seconds % 60;
 
+    if(timerMinutes.toString().length === 1) {
+        timerMinutes = '0' + timerMinutes
+    }
+    return timerMinutes + ':' + timerSeconds;
+}
+
+console.log(calcTime(500));
 
 
 
@@ -205,7 +225,20 @@ console.log(arrSum([1,2,3,4,5,6]));
 
 // getMax([-300,-100,-200]) --> -100
 
+function getMax(arr) {
+    let max =arr[0];
+for(let i = 0; i < arr.length; ++i){
+if (arr[i] > max) {
+    max = arr[i];
+    }
+  }
+  return max;
+}
 
+console.log(getMax([1000, 3, 500]));
+
+/*Attempt this problem multiple times */
+/*And solve it yourself */
 
 
 
@@ -241,7 +274,17 @@ console.log(arrSum([1,2,3,4,5,6]));
 // - Use the array reverse property
 
 
+function getMax(arr) {
+    let max =arr[0];
+for(let i = 0; i < arr.length; ++i){
+if (arr[i] > max) {
+    max = arr[i];
+    }
+  }
+  return max;
+}
 
+console.log(getMax([1000, 3, 500]));
 
 
 
