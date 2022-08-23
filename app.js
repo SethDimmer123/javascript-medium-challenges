@@ -10,11 +10,11 @@
 
 
 
-function falsyOrTruthy(elem1, elem2) {
-    return (!elem1) ? elem1 : elem2;
-}
+// function falsyOrTruthy(elem1, elem2) {
+    // return (!elem1) ? elem1 : elem2;
+// }
 
-console.log(falsyOrTruthy(0,5));
+// console.log(falsyOrTruthy(0,5));
 
 
 
@@ -109,7 +109,7 @@ function arrSum(arr) {
         // console.log(arr[i]);
         // console.log('run this code')
     }
-    console.log('for loop broke')
+    // console.log('for loop broke')
 }
 
 console.log(arrSum([1,2,3,4,5,6]));
