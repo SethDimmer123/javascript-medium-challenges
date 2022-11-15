@@ -9,16 +9,39 @@
 // filterOutFalsy([true, 'Dog']) --> 'Dog'
 
 
-function filterOutFalsy(num1,num2) {
-    if(num1){
-        return true
-    }
-    else{
-        return num2
-    }
-}
+// function filterOutFalsy(elem1,elem2) {
+//     if(!elem1) {
+//         // return the element
+//         return elem1;
+//     }
+//     else{
+//         return elem2
+//         // return element 2
+//     }
+// }
 
-console.log(filterOutFalsy(0,500))
+// console.log(filterOutFalsy(0,500))
+
+
+
+
+
+
+
+
+
+ 
+// if i want to convert a truthy value to a 
+// falsy value i use 1 exclamation mark !
+
+
+// how to check if a value is truthy or falsy?
+
+// !!
+
+// double exclamation mark tells you if a value is
+// truthy or falsy
+
 
 
 
@@ -47,6 +70,15 @@ console.log(filterOutFalsy(0,500))
 
 
 
+// function arrLength(arr) {
+//     return arr.length
+// }
+
+// console.log(arrLength([1,2,3]))
+
+
+
+
 
 
 
@@ -68,10 +100,13 @@ console.log(filterOutFalsy(0,500))
 // lastElem([null,5,false]) --> false
 
 
-let lastElem = [3,2,0,6,2]
 
-console.log(lastElem[lastElem.length - 1])
 
+function arrLength(arr) {
+    return arr [arr.length -1]
+}
+
+console.log(arrLength([1,2,3,50]))
 
 
 
@@ -104,8 +139,20 @@ console.log(lastElem[lastElem.length - 1])
 // This question starts at 7:21
 
 
+function arrSum(arr) {
+    for(let i = 0; i < 3; ++i) {
+        console.log('run this code')
+    }
+    console.log('for loop broke')
+}
 
 
+console.log(arrSum([2,2,2]));
+
+
+// when i want to use every single element of an array
+
+// i need to use a for-loop
 
 
 
@@ -325,6 +372,8 @@ console.log(lastElem[lastElem.length - 1])
 // - Solution 1: For loop
 
 // - Solution 2: Array 'filter'
+
+
 
 
 
