@@ -102,11 +102,11 @@
 
 
 
-function arrLength(arr) {
-    return arr [arr.length -1]
-}
+// function arrLength(arr) {
+//     return arr [arr.length -1]
+// }
 
-console.log(arrLength([1,2,3,50]))
+// console.log(arrLength([1,2,3,50]))
 
 
 
@@ -138,21 +138,21 @@ console.log(arrLength([1,2,3,50]))
 
 // This question starts at 7:21
 
-
 function arrSum(arr) {
-    for(let i = 0; i < 3; ++i) {
+    for(let i = 0; i < 3; ++i){
         console.log('run this code')
     }
-    console.log('for loop broke')
 }
 
+console.log(arrSum([2,2,2]))
 
-console.log(arrSum([2,2,2]));
 
 
-// when i want to use every single element of an array
 
-// i need to use a for-loop
+
+
+// when i want to use every single element 
+// of an array i need to use a for-loop
 
 
 
