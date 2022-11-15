@@ -9,23 +9,20 @@
 // filterOutFalsy([true, 'Dog']) --> 'Dog'
 
 
-// function filterOutFalsy(elem1,elem2) {
-//     if(!elem1) {
-//         // return the element
-//         return elem1;
-//     }
+// function filterOutFalsy(elem1, elem2) {
+//     if(!elem1) //falsy value
+//     return elem1 // this returns because the value is falsy
 //     else{
 //         return elem2
-//         // return element 2
 //     }
 // }
 
 // console.log(filterOutFalsy(0,500))
 
 
-
-
-
+//if the if statement is true then 
+// the else statement will run in the console
+// which is not what we want
 
 
 
@@ -35,12 +32,12 @@
 // falsy value i use 1 exclamation mark !
 
 
-// how to check if a value is truthy or falsy?
-
-// !!
-
-// double exclamation mark tells you if a value is
-// truthy or falsy
+/**
+ * how to check if a value is truthy or falsy?
+ *  !!
+ * double exclamation mark tells you if a value is
+ * truthy or falsy
+ */
 
 
 
@@ -60,11 +57,11 @@
 
 // Given an array, return its length.
 
-// arrLength([1,2,3]) --> 3
+// arrLength([1,2,3]) --> 3 (3 elements)
 
-// arrLength([5, 0, -4, 1]) --> 4
+// arrLength([5, 0, -4, 1]) --> 4 (4 elements)
 
-// arrLength([]) --> 0
+// arrLength([]) --> 0 (0 elements inside the array)
 
 
 
@@ -101,12 +98,18 @@
 
 
 
+function lastElem(arr) {
+    return arr[arr.length - 1]
+}
 
-// function arrLength(arr) {
-//     return arr [arr.length -1]
-// }
+console.log(lastElem([3,2,0,6,2]))
 
-// console.log(arrLength([1,2,3,50]))
+
+/**to get the last element of the array
+ * i need to find out how many elements there
+ * are and minus it by 1 because the index starts 
+ * from 0 NOT 1 */ 
+
 
 
 
@@ -138,13 +141,7 @@
 
 // This question starts at 7:21
 
-function arrSum(arr) {
-    for(let i = 0; i < 3; ++i){
-        console.log('run this code')
-    }
-}
 
-console.log(arrSum([2,2,2]))
 
 
 
