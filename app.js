@@ -98,11 +98,11 @@
 
 
 
-function lastElem(arr) {
-    return arr[arr.length - 1]
-}
+// function lastElem(arr) {
+//     return arr[arr.length - 1]
+// }
 
-console.log(lastElem([3,2,0,6,2]))
+// console.log(lastElem([3,2,0,6,2]))
 
 
 /**to get the last element of the array
@@ -140,10 +140,6 @@ console.log(lastElem([3,2,0,6,2]))
 /*Come back to this question and do this yourself */
 
 // This question starts at 7:21
-
-
-
-
 
 
 
@@ -236,8 +232,11 @@ console.log(lastElem([3,2,0,6,2]))
 
 
 
-/*Attempt this problem multiple times */
-/*And solve it yourself */
+
+
+
+
+
 
 
 
@@ -377,14 +376,6 @@ console.log(lastElem([3,2,0,6,2]))
 
 
 /* Attempt this problem yourself over and over */
-
-
-
-
-
-
-
-
 
 
 
