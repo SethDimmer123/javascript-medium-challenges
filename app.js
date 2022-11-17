@@ -140,16 +140,16 @@
 // of an array i need to use a for-loop
 
 
-// arrSum([2,2,2])
+arrSum([2,2,2])
 
-// function arrSum(arr) {
-//     let sum = 0;
+function arrSum(arr) {
+    let sum = 0;
 
-//     for(let i = 0; i <= arr.length - 1; ++i) {
-//         sum += arr[i];
-//     }
-//     console.log(sum);
-// }
+    for(let i = 0; i <= arr.length - 1; ++i) {
+        sum += arr[i];
+    }
+    console.log(sum);
+}
 
 
 
@@ -181,7 +181,7 @@
 
 
 function progressiveSum(num) {
-    
+
 }
 
 
