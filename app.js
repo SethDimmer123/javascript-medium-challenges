@@ -140,16 +140,16 @@
 // of an array i need to use a for-loop
 
 
-arrSum([2,2,2])
+// arrSum([2,2,2])
 
-function arrSum(arr) {
-    let sum = 0;
+// function arrSum(arr) {
+//     let sum = 0;
 
-    for(let i = 0; i <= arr.length - 1; ++i) {
-        sum += arr[i];
-    }
-    console.log(sum);
-}
+//     for(let i = 0; i <= arr.length - 1; ++i) {
+//         sum += arr[i];
+//     }
+//     console.log(sum);
+// }
 
 
 
@@ -180,9 +180,17 @@ function arrSum(arr) {
 // progressiveSum(600) --> 180300
 
 
-function progressiveSum(num) {
+// progressiveSum([3])
 
-}
+// function progressiveSum(num) {
+//     let sum = 0;
+
+//     for(let i = 0; i <= num; ++i) {
+//         sum += i;
+//     }
+
+//     console.log(sum)
+// }
 
 
 
@@ -214,7 +222,16 @@ function progressiveSum(num) {
 
 // calcTime(300) --> '05:00'
 
+function calcTime(seconds) {
+    let timerMinutes = Math.floor(seconds / 60);
+    let timerSeconds = seconds % 60;
+    return timerMinutes + ':' + timerSeconds;
+}
 
+console.log(calcTime(66))
+
+
+// we remove the decimal by using math.floor
 
 
 
@@ -311,6 +328,7 @@ function progressiveSum(num) {
 // - Array 'fill'
 
 // - Array 'map'
+
 
 
 
