@@ -222,13 +222,11 @@
 
 // calcTime(300) --> '05:00'
 
-function calcTime(seconds) {
-    let timerMinutes = Math.floor(seconds / 60);
-    let timerSeconds = seconds % 60;
-    return timerMinutes + ':' + timerSeconds;
-}
 
-console.log(calcTime(66))
+
+
+
+
 
 
 // we remove the decimal by using math.floor
