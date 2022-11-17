@@ -345,7 +345,6 @@
 
 
 
-
 // Question 10. Filter out all the apples
 
 // Given an array of fruits, if it is an apple remove it from the array.
