@@ -136,16 +136,14 @@
 
 
 
-
-/*Come back to this question and do this yourself */
-
-// This question starts at 7:21
-
-
-
-
 // when i want to use every single element 
 // of an array i need to use a for-loop
+
+
+
+
+
+
 
 
 
@@ -375,7 +373,7 @@
 
 
 
-/* Attempt this problem yourself over and over */
+
 
 
 
@@ -399,6 +397,6 @@
 
 
 
-/*Go through these questions over and over again */
+
 
 
