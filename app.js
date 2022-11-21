@@ -180,7 +180,6 @@
 
 // E.g. An input of 4 will give you 1 + 2 + 3 + 4, which equals 10.
 
-// It is confusing what does that mean(12:15)
 
 // progressiveSum(3) --> 6
 
