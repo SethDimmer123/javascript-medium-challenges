@@ -8,14 +8,16 @@
 
 // filterOutFalsy([true, 'Dog']) --> 'Dog'
 
-function filterOutFalsy(elem1,elem2) {
-if(/*falsy*/) {
-// return the Element
-}
-else{
-    // return element 2
-}
-}
+// function filterOutFalsy(elem1,elem2) {
+// if(!elem1) {
+// return elem1
+// }
+// else{
+//     return elem2
+//   }
+// }
+
+// console.log(filterOutFalsy(0,500))
 
 
 
@@ -61,7 +63,11 @@ else{
 // arrLength([]) --> 0 (0 elements inside the array)
 
 
+// function arrLength(arr) {
+//     return arr.length;
+// }
 
+// console.log(arrLength([1,2,3]))
 
 
 
@@ -90,7 +96,11 @@ else{
 // lastElem([null,5,false]) --> false
 
 
+// function arrLength(arr) {
+//     return arr[arr.length - 1];
+// }
 
+// console.log(arrLength([3,2,0,6,2]))
 
 
 
@@ -134,6 +144,20 @@ else{
 // arrSum([2,2,2])
 
 
+// function arrSum(arr) {
+//     let sum = 0;
+
+//     for (let i = 0; i <= arr.length -1; ++i) {
+//         sum += arr[i]
+//     }
+//     console.log(sum)
+// }
+
+
+
+
+
+
 
 
 
@@ -164,6 +188,16 @@ else{
 
 // progressiveSum(600) --> 180300
 
+// progressiveSum(3)
+
+// function progressiveSum(add) {
+//     let sum = 3;
+
+//     for(let i = 3; i <= add; ++i) {
+//         sum += add;
+//     }
+//     console.log(sum);
+// }
 
 
 
@@ -320,6 +354,8 @@ else{
 
 
 
+
+
 // Question 10. Filter out all the apples
 
 // Given an array of fruits, if it is an apple remove it from the array.
@@ -340,8 +376,44 @@ else{
 
 
 
+const arrayOfFruit = ['Banana','Apple','Orange','Apple']
 
 
+
+
+// function removeApples(arr) {
+//     let noApples = []
+//     for(let i = 0; i < arr.length;++i ){
+//         console.log(arr[i])
+//         if(arr[i] !== 'Apple') {
+//             noApples.push(arr[i]);
+//         }
+//     }
+//     return noApples;
+// }
+
+// console.log(removeApples(['Banana','Apple','Orange','Apple']))
+
+// i means the current element of an array
+
+// step 1 loop through every single elementt with a for loop
+
+// step 2 check if the current element is not equal to Apple
+// then add it to the new empty array by the .push method
+// we are adding the current element to the new array 
+
+// then return the new array
+
+
+
+
+
+
+// solution 2 down below 
+
+
+
+console.log(arrayOfFruit.filter((fruit) => fruit !=='Apple'));
 
 
 
@@ -370,6 +442,10 @@ else{
 
 // - Solution 2: Array 'filter'
 
+
+function filterOutFalsy(arr) {
+
+}
 
 
 
