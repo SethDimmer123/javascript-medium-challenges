@@ -87,6 +87,8 @@
 
 
 
+
+
 /**to get the last element of the array
  * i need to find out how many elements there
  * are and minus it by 1 because the index starts 
@@ -123,6 +125,7 @@
 
 
 // arrSum([2,2,2])
+
 
 
 
