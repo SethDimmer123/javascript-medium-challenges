@@ -8,7 +8,14 @@
 
 // filterOutFalsy([true, 'Dog']) --> 'Dog'
 
-
+function filterOutFalsy(elem1,elem2) {
+if(/*falsy*/) {
+// return the Element
+}
+else{
+    // return element 2
+}
+}
 
 
 
