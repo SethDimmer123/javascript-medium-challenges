@@ -238,7 +238,7 @@
 
 
 
-// we remove the decimal by using math.floor
+
 
 
 
@@ -379,24 +379,17 @@
 const arrayOfFruit = ['Banana','Apple','Orange','Apple']
 
 
+// do for loop here
 
 
-// function removeApples(arr) {
-//     let noApples = []
-//     for(let i = 0; i < arr.length;++i ){
-//         console.log(arr[i])
-//         if(arr[i] !== 'Apple') {
-//             noApples.push(arr[i]);
-//         }
-//     }
-//     return noApples;
-// }
+
+
 
 // console.log(removeApples(['Banana','Apple','Orange','Apple']))
 
 // i means the current element of an array
 
-// step 1 loop through every single elementt with a for loop
+// step 1 loop through every single element with a for loop
 
 // step 2 check if the current element is not equal to Apple
 // then add it to the new empty array by the .push method
@@ -413,7 +406,7 @@ const arrayOfFruit = ['Banana','Apple','Orange','Apple']
 
 
 
-console.log(arrayOfFruit.filter((fruit) => fruit !=='Apple'));
+// console.log(arrayOfFruit.filter((fruit) => fruit !=='Apple'));
 
 
 
@@ -443,12 +436,14 @@ console.log(arrayOfFruit.filter((fruit) => fruit !=='Apple'));
 // - Solution 2: Array 'filter'
 
 
-function filterOutFalsy(arr) {
-
-}
+filterOutFalsy(["",[],0,null,undefined,"0"])
 
 
+// do for loop
 
+
+
+// then do filter method
 
 
 
