@@ -9,20 +9,10 @@
 // filterOutFalsy([true, 'Dog']) --> 'Dog'
 
 
-// function filterOutFalsy(elem1, elem2) {
-//     if(!elem1) //falsy value
-//     return elem1 // this returns because the value is falsy
-//     else{
-//         return elem2
-//     }
-// }
-
-// console.log(filterOutFalsy(0,500))
 
 
-//if the if statement is true then 
-// the else statement will run in the console
-// which is not what we want
+
+
 
 
 
@@ -67,11 +57,7 @@
 
 
 
-// function arrLength(arr) {
-//     return arr.length
-// }
 
-// console.log(arrLength([1,2,3]))
 
 
 
@@ -98,11 +84,7 @@
 
 
 
-// function lastElem(arr) {
-//     return arr[arr.length - 1]
-// }
 
-// console.log(lastElem([3,2,0,6,2]))
 
 
 /**to get the last element of the array
@@ -142,14 +124,7 @@
 
 // arrSum([2,2,2])
 
-// function arrSum(arr) {
-//     let sum = 0;
 
-//     for(let i = 0; i <= arr.length - 1; ++i) {
-//         sum += arr[i];
-//     }
-//     console.log(sum);
-// }
 
 
 
@@ -180,17 +155,7 @@
 // progressiveSum(600) --> 180300
 
 
-// progressiveSum([3])
 
-// function progressiveSum(num) {
-//     let sum = 0;
-
-//     for(let i = 0; i <= num; ++i) {
-//         sum += i;
-//     }
-
-//     console.log(sum)
-// }
 
 
 
