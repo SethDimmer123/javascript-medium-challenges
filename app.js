@@ -588,15 +588,11 @@
 
 
 
-const arrayOfFruit = ['Banana','Orange','Apple']
 
 
 
 
 
-
-
-// console.log(removeApples(['Banana','Apple','Orange','Apple']))
 
 // i means the current element of an array
 
@@ -615,7 +611,7 @@ const arrayOfFruit = ['Banana','Orange','Apple']
 
 // solution 2 down below 
 
-
+// const arrayOfFruit = ['Banana','Orange','Apple']
 
 // console.log(arrayOfFruit.filter((fruit) => fruit !=='Apple'));
 
