@@ -386,7 +386,7 @@
 
 
 
-// array reverse property down below
+// array reverse property NOTES down below
 
 // an array has a reverse property 
 
@@ -417,11 +417,30 @@
 'abc'.split('').reverse().join('')
 'cba'
 
+// review of what is above
+
+// .split method converting a string to an array
+
+// .reverse method i can only use it on an ARRAY
+
+// .join method is converting an array to a string
 
 
 
 
 
+
+
+
+
+// Array reverse property
+
+
+function reverseString(str) {
+    return str.split('').reverse().join('')
+}
+
+console.log(reverseString('abc'))
 
 
 
@@ -453,8 +472,44 @@
 // - Array 'map'
 
 
+// function convertToZeros(arr) {
+//     let newArr = [];
+// for(let i = 0; i < arr.length; ++i) {
+//     newArr[i] = 0
+// }
+// return newArr;
+// }
+
+// console.log(convertToZeros([1,2,3,4,5,6]))
 
 
+
+
+// if i dont want to change the array(line 482)
+// but i want to return a new array then do let newArr
+
+
+
+
+// .fill method
+
+
+function convertToZeros(arr) {
+    return new Array(arr.length).fill(0)
+
+}
+
+console.log(convertToZeros([1,2,3]))
+
+
+
+// you create a new array and fill it with zeros
+
+
+
+
+
+// .map method (very important method)
 
 
 
