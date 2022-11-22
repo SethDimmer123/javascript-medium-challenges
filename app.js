@@ -232,15 +232,31 @@
 
 
 function calcTime(seconds) {
-return seconds % 60
+    let timerMinutes = Math.floor (seconds / 60);
+    let timerSeconds = seconds % 60;
+
+    if(timerMinutes.toString().length === 1) {
+     timerMinutes = '0' + timerMinutes
+    }
+
+    return timerMinutes + ':' + timerSeconds;
 }
 
 
-console.log(calcTime(60))
+console.log(calcTime(500));
 
 
 
+// math.floor removes the decimal and rounds the number down so
+// we get a whole number instead of a number and a remainder
 
+
+
+// if we want to put a 0 infront of the minute digit only when its 1
+
+// you return timerMinutes and convert it to a string toString() 
+
+// then get it's .length
 
 
 
