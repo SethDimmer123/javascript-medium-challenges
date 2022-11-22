@@ -414,7 +414,8 @@
 
 // but now we want to return it in a string
 
-'abc'.split
+'abc'.split('').reverse().join('')
+'cba'
 
 
 
