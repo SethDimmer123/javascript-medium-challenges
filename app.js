@@ -231,19 +231,19 @@
 // calcTime(300) --> '05:00'
 
 
-function calcTime(seconds) {
-    let timerMinutes = Math.floor (seconds / 60);
-    let timerSeconds = seconds % 60;
+// function calcTime(seconds) {
+//     let timerMinutes = Math.floor (seconds / 60);
+//     let timerSeconds = seconds % 60;
 
-    if(timerMinutes.toString().length === 1) {
-     timerMinutes = '0' + timerMinutes
-    }
+//     if(timerMinutes.toString().length === 1) {
+//      timerMinutes = '0' + timerMinutes
+//     }
 
-    return timerMinutes + ':' + timerSeconds;
-}
+//     return timerMinutes + ':' + timerSeconds;
+// }
 
 
-console.log(calcTime(500));
+// console.log(calcTime(500));
 
 
 
@@ -286,7 +286,24 @@ console.log(calcTime(500));
 // getMax([-300,-100,-200]) --> -100
 
 
+// whenever i need to look through every element of an
+// array i need to use a for-loop
 
+
+
+getMax([-300,-100,-200])
+
+function getMax(arr) {
+    let max = arr[0];// max is currently -300 becuase that is the first iteration
+for(let i = 0; i < arr.length; ++i) { // this is how you keep looping through the elements over and over again
+    if (arr[i] > max) {// if arr i (increments of i) is bigger than number than the current max value that we are storing(line 297) we are letting the new max value be the current iteration we are on
+        max = arr[i]; // then we make the max the number that is bigger than the current iteration we are on
+    }
+  }
+return max;//then we return it
+}
+
+console.log(getMax([-300,-100,-200]));
 
 
 
