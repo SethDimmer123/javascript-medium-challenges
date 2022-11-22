@@ -291,19 +291,20 @@
 
 
 
-getMax([-300,-100,-200])
+// getMax([-300,-100,-200])
 
-function getMax(arr) {
-    let max = arr[0];// max is currently -300 becuase that is the first iteration
-for(let i = 0; i < arr.length; ++i) { // this is how you keep looping through the elements over and over again
-    if (arr[i] > max) {// if arr i (increments of i) is bigger than number than the current max value that we are storing(line 297) we are letting the new max value be the current iteration we are on
-        max = arr[i]; // then we make the max the number that is bigger than the current iteration we are on
-    }
-  }
-return max;//then we return it
-}
+// function getMax(arr) {
+//     let max = arr[0];// max is currently -300 becuase that is the first iteration
+// for(let i = 0; i < arr.length; ++i) { // this is how you keep looping through the elements over and over again
+//     if (arr[i] > max) {// if arr i (increments of i) is bigger than number than the current max value that we are storing(line 297) we are letting the new max value be the current iteration we are on
+//         max = arr[i]; // then we make the max the number that is bigger than the current iteration we are on
+//     }
+//   }
+// return max;
+// //then we return it
+// }
 
-console.log(getMax([-300,-100,-200]));
+// console.log(getMax([-300,-100,-200]));
 
 
 
@@ -344,9 +345,76 @@ console.log(getMax([-300,-100,-200]));
 // - Use the array reverse property
 
 
+// incrementing for loop down below
+
+// function reverseString(str) {
+//     let reversedString = '';
+//     for(let i = 0; i < str.length; ++i) {
+//         // this is how you loop through every character in a string
+//         reversedString = str[i] + reversedString;
+
+//     }
+//     return reversedString;
+// }
+
+// console.log(reverseString('abc'))
 
 
 
+// string and array both have .length property that i use if i want to loop through every single element of a string and array
+
+
+
+
+
+// decrementing for loop down below
+
+
+
+// function reverseString(str) {
+//     let reversedString = '';
+//     for(let i = str.length-1; i >= 0; --i) {
+//         reversedString += str[i]
+
+//     }
+//     return reversedString;
+// }
+
+// console.log(reverseString('abc'))
+
+
+
+
+
+// array reverse property down below
+
+// an array has a reverse property 
+
+// ['a','b','c'].reverse()
+// ['c','b','a']
+
+
+// how do we reverse a string?
+
+// the .split method lets us convert a string to an array
+// .split('')
+
+"abc".split('')
+// answer on line 404
+ ['a','b','c']
+
+
+
+//  we can add .reverse()
+
+ "abc".split('').reverse()
+ ['c','b','a']
+
+//  that reverses the array
+
+// but now we want to return it in a string
+
+'abc'.split
 
 
 
