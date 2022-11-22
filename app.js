@@ -529,11 +529,11 @@
 
 
 
-function convertToZeros(arr) {
-    return arr.map(elem => 0)
-}
+// function convertToZeros(arr) {
+//     return arr.map(elem => 0)
+// }
 
-console.log(convertToZeros([1,2,3]));
+// console.log(convertToZeros([1,2,3]));
 
 
 // ES6 has an invisible return that lets you
@@ -551,6 +551,15 @@ console.log(convertToZeros([1,2,3]));
 // the return is not invisible anymore
 // if im using curly brackets i need to return it 
 // itself
+
+
+
+
+
+
+
+
+
 
 
 
@@ -579,10 +588,9 @@ console.log(convertToZeros([1,2,3]));
 
 
 
-const arrayOfFruit = ['Banana','Apple','Orange','Apple']
+const arrayOfFruit = ['Banana','Orange','Apple']
 
 
-// do for loop here
 
 
 
@@ -642,7 +650,9 @@ const arrayOfFruit = ['Banana','Apple','Orange','Apple']
 // filterOutFalsy(["",[],0,null,undefined,"0"])
 
 
-// do for loop
+function filterOutFalsy() {
+
+}
 
 
 
