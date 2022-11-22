@@ -515,17 +515,25 @@
 
 // map method lets me map over every element in an array.
 
-// .map method converts every element in your array into something else
+// .map method converts every element in your array into whatever
+// is on the right hand side of the operation
 
 
 // example  (do this in the console on your browser not on this vsc file)
-// [1,2,3].map (elem=> 'dog')
+// [1,2,3].map (elem => 'dog')
 
 // in the console you should get
 
 // (3) ['dog','dog','dog']
 
 
+
+
+function convertToZeros(arr) {
+    return arr.map(elem => 0)
+}
+
+console.log(convertToZeros([1,2,3]));
 
 
 
