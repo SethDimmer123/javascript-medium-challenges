@@ -357,6 +357,16 @@ console.log(getMax([-300,-100,-200]));
 
 
 
+
+
+
+
+
+
+
+
+
+
 // Question 9. Turn every element in an array into 0 
 
 // Given an array of elements,return the same length array filled with 0's.
