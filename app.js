@@ -536,9 +536,21 @@ function convertToZeros(arr) {
 console.log(convertToZeros([1,2,3]));
 
 
+// ES6 has an invisible return that lets you
+// return zeros
+
+// function convertToZeros(arr) {
+//     return arr.map(elem => {
+//        return 0
+//     });
+// }
+
+// console.log(convertToZeros([1,2,3]));
 
 
-
+// the return is not invisible anymore
+// if im using curly brackets i need to return it 
+// itself
 
 
 
