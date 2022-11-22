@@ -231,7 +231,12 @@
 // calcTime(300) --> '05:00'
 
 
+function calcTime(seconds) {
+return seconds % 60
+}
 
+
+console.log(calcTime(60))
 
 
 
@@ -435,7 +440,7 @@ const arrayOfFruit = ['Banana','Apple','Orange','Apple']
 // - Solution 2: Array 'filter'
 
 
-filterOutFalsy(["",[],0,null,undefined,"0"])
+// filterOutFalsy(["",[],0,null,undefined,"0"])
 
 
 // do for loop
