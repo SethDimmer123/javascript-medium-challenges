@@ -516,7 +516,7 @@
 // map method lets me map over every element in an array.
 
 // .map method converts every element in your array into whatever
-// is on the right hand side of the operation
+// is on the right hand side of the arrow function (=>)
 
 
 // example  (do this in the console on your browser not on this vsc file)
