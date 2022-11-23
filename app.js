@@ -8,17 +8,17 @@
 
 // filterOutFalsy([true, 'Dog']) --> 'Dog'
 
-function filterOutFalsy(elem1,elem2) {
-    if(!elem1)
-    return elem1
+// function filterOutFalsy(elem1,elem2) {
+//     if(!elem1)
+//     return elem1
 
-    else{
-        return elem2
-    }
-}
+//     else{
+//         return elem2
+//     }
+// }
 
 
-console.log(filterOutFalsy(true,'Dog'))
+// console.log(filterOutFalsy(true,'Dog'))
 
 
 
@@ -64,11 +64,11 @@ console.log(filterOutFalsy(true,'Dog'))
 // arrLength([]) --> 0 (0 elements inside the array)
 
 
-function arrLength(arr) {
-    return arr.length
-}
+// function arrLength(arr) {
+//     return arr.length
+// }
 
-console.log(arrLength([5,0,-3,5]))
+// console.log(arrLength([5,0,-3,5]))
 
 
 
@@ -96,10 +96,10 @@ console.log(arrLength([5,0,-3,5]))
 // lastElem([null,5,false]) --> false
 
 
-function lastElem(arr) {
-    return arr[arr.length-1]
-}
-console.log(lastElem([3,2,0,6,2]))
+// function lastElem(arr) {
+//     return arr[arr.length-1]
+// }
+// console.log(lastElem([3,2,0,6,2]))
 
 
 
@@ -144,7 +144,7 @@ console.log(lastElem([3,2,0,6,2]))
 
 // function arrSum(arr) {
 //     let sum = 0;
-
+//         // this is how you loop through every element of an array
 //     for (let i = 0; i <= arr.length -1; ++i) {
 //         sum += arr[i]
 //     }
@@ -652,17 +652,7 @@ console.log(lastElem([3,2,0,6,2]))
 
 
 
-// function filterOutFalsy(arr) {
-//     let nofalsyArr = []
-//     for(let i = 0; i < arr.length; ++i) {
-//         if(!!arr[i] === true) {
-//             nofalsyArr.push(arr[i]);
-//         }
-//     }
-//     return nofalsyArr;
-// }
 
-// console.log(filterOutFalsy(['Tomato','Orange','Banana',false]))
 
 
 
