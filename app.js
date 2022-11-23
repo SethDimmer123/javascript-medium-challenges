@@ -18,7 +18,7 @@ function filterOutFalsy(elem1,elem2) {
 }
 
 
-console.log(filterOutFalsy(0,500))
+console.log(filterOutFalsy(true,'Dog'))
 
 
 
