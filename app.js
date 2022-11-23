@@ -585,11 +585,19 @@
 // - Solution 2: Array 'filter'
 
 
+// function removeApples(arr) {
+//     let noApples = []
+//     for(let i = 0; i < arr.length; ++i) {
+//         if(arr[i] !== 'Apple') {
+//             noApples.push(arr[i]);
+//         }
+//     }
+//     return noApples;
+// }
 
 
 
-
-
+// console.log(removeApples(['Banana','Apple','Orange']))
 
 
 
@@ -643,16 +651,28 @@
 // - Solution 2: Array 'filter'
 
 
-// filterOutFalsy(["",[],0,null,undefined,"0"])
-
-
-function filterOutFalsy() {
-
-}
 
 
 
-// then do filter method
+// function filterOutFalsy(arr) {
+//     let nofalsyArr = []
+//     for(let i = 0; i < arr.length; ++i) {
+//         if(!!arr[i] === true) {
+//             nofalsyArr.push(arr[i]);
+//         }
+//     }
+//     return nofalsyArr;
+// }
+
+// console.log(filterOutFalsy(['Tomato','Orange','Banana',false]))
+
+
+
+// filter method
+
+// const filterOutFalsy =['Banana','Orange','Apple']
+
+// console.log(filterOutFalsy.filter((falsy) => falsy !== 'Apple'));
 
 
 
