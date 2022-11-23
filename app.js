@@ -64,12 +64,11 @@ console.log(filterOutFalsy(true,'Dog'))
 // arrLength([]) --> 0 (0 elements inside the array)
 
 
-// function arrLength(arr) {
-//     return arr.length;
-// }
+function arrLength(arr) {
+    return arr.length
+}
 
-// console.log(arrLength([1,2,3]))
-
+console.log(arrLength([5,0,-3,5]))
 
 
 
@@ -97,12 +96,10 @@ console.log(filterOutFalsy(true,'Dog'))
 // lastElem([null,5,false]) --> false
 
 
-// function arrLength(arr) {
-//     return arr[arr.length - 1];
-// }
-
-// console.log(arrLength([3,2,0,6,2]))
-
+function lastElem(arr) {
+    return arr[arr.length-1]
+}
+console.log(lastElem([3,2,0,6,2]))
 
 
 
