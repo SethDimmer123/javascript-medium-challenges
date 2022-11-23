@@ -8,16 +8,17 @@
 
 // filterOutFalsy([true, 'Dog']) --> 'Dog'
 
-// function filterOutFalsy(elem1,elem2) {
-// if(!elem1) {
-// return elem1
-// }
-// else{
-//     return elem2
-//   }
-// }
+function filterOutFalsy(elem1,elem2) {
+    if(!elem1)
+    return elem1
 
-// console.log(filterOutFalsy(0,500))
+    else{
+        return elem2
+    }
+}
+
+
+console.log(filterOutFalsy(0,500))
 
 
 
