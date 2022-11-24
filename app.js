@@ -185,16 +185,28 @@
 
 // progressiveSum(600) --> 180300
 
-// progressiveSum(3)
+
 
 // function progressiveSum(add) {
-//     let sum = 3;
-
-//     for(let i = 3; i <= add; ++i) {
-//         sum += add;
-//     }
-//     console.log(sum);
+// let sum = 0;
+// for(let i = 0; i <= 3; ++i ) {
+//     sum += i
+//   }
+//   console.log(sum)
 // }
+
+
+// 1 + 2 + 3    --> 6
+
+// 1 + 2 + 3 + 4 --> 10
+
+//  600 -> 180300
+
+
+
+
+
+
 
 
 
@@ -229,32 +241,11 @@
 // calcTime(300) --> '05:00'
 
 
-// function calcTime(seconds) {
-//     let timerMinutes = Math.floor (seconds / 60);
-//     let timerSeconds = seconds % 60;
-
-//     if(timerMinutes.toString().length === 1) {
-//      timerMinutes = '0' + timerMinutes
-//     }
-
-//     return timerMinutes + ':' + timerSeconds;
-// }
-
-
-// console.log(calcTime(500));
 
 
 
-// math.floor removes the decimal and rounds the number down so
-// we get a whole number instead of a number and a remainder
 
 
-
-// if we want to put a 0 infront of the minute digit only when its 1
-
-// you return timerMinutes and convert it to a string toString() 
-
-// then get it's .length
 
 
 
