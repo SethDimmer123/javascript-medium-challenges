@@ -242,16 +242,46 @@
 
 
 
+// function calcTime(seconds) {
+//     return seconds % 60
+// }
+
+// console.log(calcTime(70));
+
+
+// returning the remainder is 10 seconds in the console
+
+// How do we get the minutes?
+
+
+// function calcTime(seconds) {
+//     return seconds / 60; // 1 full minute
+//     let timerSeconds = seconds % 60;
+// }
+
+// console.log(calcTime(70));
+
+
+
+//  we dont want the decimals
+
+// using math.floor removes decimal
+
+
+function calcTime(seconds) {
+    let timerMinutes = Math.floor(seconds / 60);
+    let timerSeconds = seconds % 60;
+
+    return timerMinutes + ':' + timerSeconds;
+}
+
+console.log(calcTime(230));
 
 
 
 
-
-
-
-
-
-
+// now we want to add a 0 infront of the 
+// calculated time
 
 
 
