@@ -268,14 +268,14 @@
 // using math.floor removes decimal
 
 
-function calcTime(seconds) {
-    let timerMinutes = Math.floor(seconds / 60);
-    let timerSeconds = seconds % 60;
+// function calcTime(seconds) {
+//     let timerMinutes = Math.floor(seconds / 60);
+//     let timerSeconds = seconds % 60;
 
-    return timerMinutes + ':' + timerSeconds;
-}
+//     return timerMinutes + ':' + timerSeconds;
+// }
 
-console.log(calcTime(230));
+// console.log(calcTime(230));
 
 
 
@@ -283,9 +283,39 @@ console.log(calcTime(230));
 // now we want to add a 0 infront of the 
 // calculated time
 
+// * I only want a 0 infront if the minutes is 1 digit
+
+
+// function calcTime(seconds) {
+//     let timerMinutes = Math.floor(seconds / 60);
+//     let timerSeconds = seconds % 60;
+
+//     timerMinutes.toString().length
+//          timerMinutes = "0" + timerMinutes
+
+//     return timerMinutes + ':' + timerSeconds;
+// }
+
+// console.log(calcTime(70));
 
 
 
+// Now we add an if statement to calculate when
+// minutes is 1 digit add a 0 
+
+
+// function calcTime(seconds) {
+//     let timerMinutes = Math.floor(seconds / 60);
+//     let timerSeconds = seconds % 60;
+
+//     if(timerMinutes.toString().length === 1) {
+//         timerMinutes = '0' + timerMinutes
+//     }
+
+//     return timerMinutes + ':' + timerSeconds;
+// }
+
+// console.log(calcTime(500))
 
 
 
@@ -315,7 +345,7 @@ console.log(calcTime(230));
 // function getMax(arr) {
 //     let max = arr[0];// max is currently -300 becuase that is the first iteration
 // for(let i = 0; i < arr.length; ++i) { // this is how you keep looping through the elements over and over again
-//     if (arr[i] > max) {// if arr i (increments of i) is bigger than number than the current max value that we are storing(line 297) we are letting the new max value be the current iteration we are on
+//     if (arr[i] > max) {// if arr i (increments of i) is greater than number than the current max value that we are storing we are letting the new max value be the current iteration we are on
 //         max = arr[i]; // then we make the max the number that is bigger than the current iteration we are on
 //     }
 //   }
@@ -381,6 +411,12 @@ console.log(calcTime(230));
 
 
 // string and array both have .length property that i use if i want to loop through every single element of a string and array
+
+
+
+
+
+
 
 
 
