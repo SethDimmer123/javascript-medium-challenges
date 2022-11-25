@@ -317,19 +317,19 @@
 // only shows up when the minutes # is 1 DIGIT.
 
 
-function calcTime(seconds) {
-    let timerMinutes = Math.floor (seconds / 60); 
-    let timerSeconds = seconds % 60;
+// function calcTime(seconds) {
+//     let timerMinutes = Math.floor (seconds / 60); 
+//     let timerSeconds = seconds % 60;
 
-     if( timerMinutes.toString().length === 1) {
-        let timerMinutes = '0' + timerMinutes
-     }
+//      if( timerMinutes.toString().length === 1) {
+//         let timerMinutes = '0' + timerMinutes
+//      }
 
 
-     return timerMinutes + ':' + timerSeconds
-}
+//      return timerMinutes + ':' + timerSeconds
+// }
 
-console.log(calcTime(5000));
+// console.log(calcTime(5000));
 
 // in the console there is no 0
 
@@ -421,7 +421,8 @@ console.log(calcTime(5000));
 // function reverseString(str) {
 //     let reversedString = '';
 //     for(let i = 0; i < str.length; ++i) {
-//         // this is how you loop through every character in a string
+//         // this is how you loop through every 
+//         // character in a string
 //         reversedString = str[i] + reversedString;
 
 //     }
@@ -452,7 +453,7 @@ console.log(calcTime(5000));
 
 // function reverseString(str) {
 //     let reversedString = '';
-//     for(let i = str.length-1; i >= 0; --i) {
+//     for(let i = str.length - 1; i >= 0; --i) {
 //         reversedString += str[i]
 
 //     }
