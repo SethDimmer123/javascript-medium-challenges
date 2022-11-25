@@ -552,15 +552,15 @@
 // - Array 'map'
 
 
-// function convertToZeros(arr) {
-//     let newArr = [];
-// for(let i = 0; i < arr.length; ++i) {
-//     newArr[i] = 0
-// }
-// return newArr;
-// }
 
-// console.log(convertToZeros([1,2,3,4,5,6]))
+function convertToZeros(arr) {
+    for(let i = 0; i < arr.length; ++i) {
+        arr[i] = 0
+    }
+    return arr
+}
+
+console.log(convertToZeros([1,2,3,4,5]))
 
 
 
@@ -574,12 +574,12 @@
 // .fill method
 
 
-// function convertToZeros(arr) {
-//     return new Array(arr.length).fill(0)
+function convertToZeros(arr) {
+    return new Array(arr.length).fill(0)
 
-// }
+}
 
-// console.log(convertToZeros([1,2,3]))
+console.log(convertToZeros([1,2,3]))
 
 
 
