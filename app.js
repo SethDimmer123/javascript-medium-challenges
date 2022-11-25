@@ -270,11 +270,14 @@
 // using math.floor removes decimal
 // and rounds the minutes down
 
-
 // function calcTime(seconds) {
 //     let timerMinutes = Math.floor (seconds / 60); 
 //     let timerSeconds = seconds % 60;
+
+
+//      return timerMinutes + ':' + timerSeconds
 // }
+
 
 // console.log(calcTime(70));
 
@@ -296,7 +299,12 @@ function calcTime(seconds) {
     let timerSeconds = seconds % 60;
 
 
-     return timerMinutes + ':' + timerSeconds
+    if ( timerMinutes.toString().length === 1) {
+
+    }
+
+
+     return '0' + timerMinutes + ':' + timerSeconds
 }
 
 console.log(calcTime(70));
