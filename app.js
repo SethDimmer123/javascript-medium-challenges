@@ -480,7 +480,7 @@
 // .split('')
 
 "abc".split('')
-// answer on line 404
+
  ['a','b','c']
 
 
