@@ -266,56 +266,19 @@
 //  we dont want the decimals
 
 // using math.floor removes decimal
+// and rounds the minutes down
 
 
-// function calcTime(seconds) {
-//     let timerMinutes = Math.floor(seconds / 60);
-//     let timerSeconds = seconds % 60;
+function calcTime(seconds) {
+    let timerMinutes = Math.floor (seconds / 60); 
+    let timerSeconds = seconds % 60;
+}
 
-//     return timerMinutes + ':' + timerSeconds;
-// }
-
-// console.log(calcTime(230));
-
-
-
-
-// now we want to add a 0 infront of the 
-// calculated time
-
-// * I only want a 0 infront if the minutes is 1 digit
-
-
-// function calcTime(seconds) {
-//     let timerMinutes = Math.floor(seconds / 60);
-//     let timerSeconds = seconds % 60;
-
-//     timerMinutes.toString().length
-//          timerMinutes = "0" + timerMinutes
-
-//     return timerMinutes + ':' + timerSeconds;
-// }
-
-// console.log(calcTime(70));
+console.log(calcTime(70));
 
 
 
-// Now we add an if statement to calculate when
-// minutes is 1 digit add a 0 
 
-
-// function calcTime(seconds) {
-//     let timerMinutes = Math.floor(seconds / 60);
-//     let timerSeconds = seconds % 60;
-
-//     if(timerMinutes.toString().length === 1) {
-//         timerMinutes = '0' + timerMinutes
-//     }
-
-//     return timerMinutes + ':' + timerSeconds;
-// }
-
-// console.log(calcTime(500))
 
 
 
