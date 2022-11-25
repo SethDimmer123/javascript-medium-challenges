@@ -299,12 +299,12 @@ function calcTime(seconds) {
     let timerSeconds = seconds % 60;
 
 
-    if ( timerMinutes.toString().length === 1) {
-
+    if (timerMinutes.toString().length === 1) {
+         timerMinutes = '0' + timerMinutes
     }
 
 
-     return '0' + timerMinutes + ':' + timerSeconds
+     return timerMinutes + ':' + timerSeconds
 }
 
 console.log(calcTime(70));
