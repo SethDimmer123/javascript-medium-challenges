@@ -565,7 +565,7 @@
 
 
 
-// if i dont want to change the array(line 482)
+// if i dont want to change the array
 // but i want to return a new array then do let newArr
 
 
