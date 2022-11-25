@@ -432,7 +432,9 @@ console.log(calcTime(5000));
 
 
 
-// string and array both have .length property that i use if i want to loop through every single element of a string and array
+// string and array both have .length property that 
+// i use if i want to loop through every single element 
+// of a string and array
 
 
 
