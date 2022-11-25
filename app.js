@@ -294,20 +294,45 @@
 // i only want a zero infront if the "minutes
 // is 1 DIGIT"
 
+// function calcTime(seconds) {
+//     let timerMinutes = Math.floor (seconds / 60); 
+//     let timerSeconds = seconds % 60;
+
+//      return timerMinutes.toString().length; 
+//      return timerMinutes + ':' + timerSeconds
+// }
+
+
+// console.log(calcTime(70));
+
+// after we convert it to a string we add .length
+
+
+
+
+
+// step 5
+
+//  we add the if statement logic to make sure the 0
+// only shows up when the minutes # is 1 DIGIT.
+
+
 function calcTime(seconds) {
     let timerMinutes = Math.floor (seconds / 60); 
     let timerSeconds = seconds % 60;
 
-
-    if (timerMinutes.toString().length === 1) {
-         timerMinutes = '0' + timerMinutes
-    }
+     if( timerMinutes.toString().length === 1) {
+        let timerMinutes = '0' + timerMinutes
+     }
 
 
      return timerMinutes + ':' + timerSeconds
 }
 
-console.log(calcTime(70));
+console.log(calcTime(5000));
+
+// in the console there is no 0
+
 
 
 
