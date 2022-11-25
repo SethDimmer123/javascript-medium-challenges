@@ -241,7 +241,7 @@
 // calcTime(300) --> '05:00'
 
 
-
+// step 1 
 // function calcTime(seconds) {
 //     return seconds % 60
 // }
@@ -251,6 +251,8 @@
 
 // returning the remainder is 10 seconds in the console
 
+
+// step 2
 // How do we get the minutes?
 
 
@@ -262,21 +264,42 @@
 // console.log(calcTime(70));
 
 
-
+// step 3
 //  we dont want the decimals
 
 // using math.floor removes decimal
 // and rounds the minutes down
 
 
+// function calcTime(seconds) {
+//     let timerMinutes = Math.floor (seconds / 60); 
+//     let timerSeconds = seconds % 60;
+// }
+
+// console.log(calcTime(70));
+
+// shows undefined in console
+// because we need to return minutes and and seconds
+// then console log it
+
+
+
+// step 4
+
+// how do we add a 0 infront of the calculated time
+
+// i only want a zero infront if the "minutes
+// is 1 DIGIT"
+
 function calcTime(seconds) {
     let timerMinutes = Math.floor (seconds / 60); 
     let timerSeconds = seconds % 60;
+
+
+     return timerMinutes + ':' + timerSeconds
 }
 
 console.log(calcTime(70));
-
-
 
 
 
