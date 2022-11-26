@@ -730,10 +730,21 @@
 
 // - Solution 2: Array 'filter'
 
+// function filterOutFalsy(arr) {
+//     let falsyArr = []
+//     for(let i = 0; i < arr.length; ++i) {
+//         if (!!arr[i] === true)
+//         falsyArr.push(arr[i])
+//     }
+//     return falsyArr;
+// }
+
+// console.log(filterOutFalsy(["",[],500,null,undefined,0]))
 
 
+// if the current iteration is NOT equal to true
 
-
+// push the current element(s) to the new array
 
 
 
