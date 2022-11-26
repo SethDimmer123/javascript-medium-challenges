@@ -777,10 +777,13 @@
 
 
 
+// function convertToBoolean(arr) {
+//     return arr.map(elem => !!elem)
+// }
 
 
+// console.log(convertToBoolean([500,0,"David", "", []]));
 
 
-
-
-
+// double exclamation mark converts it 
+// to the opposite boolean
