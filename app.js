@@ -787,3 +787,6 @@
 
 // double exclamation mark converts it 
 // to the opposite boolean
+
+
+// use map method
