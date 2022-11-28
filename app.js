@@ -365,21 +365,22 @@
 // getMax([-300,-100,-200])
 
 // function getMax(arr) {
-//     let max = arr[0];// max is currently -300 becuase that is the first iteration
-// for(let i = 0; i < arr.length; ++i) { // this is how you keep looping through the elements over and over again
-//     if (arr[i] > max) {// if arr i (increments of i) is greater than number than the current max value that we are storing we are letting the new max value be the current iteration we are on
-//         max = arr[i]; // then we make the max the number that is bigger than the current iteration we are on
+//     let max = arr[0];
+// for(let i = 0; i < arr.length; ++i) { 
+//     if (arr[i] > max) {
+//         max = arr[i]; 
 //     }
 //   }
 // return max;
-// //then we return it
 // }
 
 // console.log(getMax([-300,-100,-200]));
 
 
 
+// > greater than
 
+{/* < less than  */}
 
 
 
@@ -581,7 +582,7 @@
 
 // console.log(convertToZeros([1,2,3]))
 
-
+// instead of ([1,2,3])
 
 // you create a new array and fill it with zeros
 
